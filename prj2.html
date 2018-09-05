@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #top {
+            background-color: yellow;
+            height: 300px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 1000px;
+        }
+
+         #bottom {
+            display: flex;
+            background-color: lightblue;
+            height: 300px;
+            width: 1000px;
+            justify-content: flex-end;
+            align-items: center;
+            
+        }
+
+        #left {
+            background-color: orange;
+            width: 400px;
+            height: 150px;
+        }
+
+        #right {
+            background-color: red;
+            width: 100px;
+            height: 150px;
+        }
+
+        #cont {
+            background-color: blue;
+            width: 300px;
+            height: 152px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+
+        }
+
+        .zaw {
+            height: 50px;
+            width: 298px;
+            border: solid black 1px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="top">
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+
+
+    <div id="bottom">
+        <div id="cont">
+            <div class="zaw"></div>
+            <div class="zaw"></div>
+            <div class="zaw"></div>
+        </div>
+    </div>
+</body>
+</html>
